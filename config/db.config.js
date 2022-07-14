@@ -1,3 +1,3 @@
 module.exports = {
-  url: 'process.env.ATLAS_URI',
+  url: `${process.env.ATLAS_URI}`,
 };
