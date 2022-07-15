@@ -35,7 +35,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // App routes
-app.use('/webmds', Router);
+// app.use('/webmds', Router);
+require('./lib/routes/routes')(app);
 
 // Error handling & 404 middleware for when
 // a request doesn't match any app routes
