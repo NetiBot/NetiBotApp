@@ -43,6 +43,7 @@
     "mongoose": "^6.4.4",
     "pg": "^8.7.3",
     "ts-node": "^10.9.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "undici": "^5.7.0"
   }
 }
