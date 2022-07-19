@@ -1,17 +1,19 @@
-# Template for Backend Express
+**\***Project README with description of project, list of team members and information about the database / API / backend**\***
 
-The Golden Rule:
-🦸 🦸‍♂️ Stop starting and start finishing. 🏁
+![NetiBot Icon](./public/icon.png)
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+What IS NetiBot??  
+Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever wanted to annoy your friends, but not put out the work of doing it. The bot is programmed to react to trigger words within Discord chat prompting a specific response, such as responding to the word 'wow' with a random clip from a 3rd party API that generates a random "Wow" from an Owen Wilson film. The bot has also studied under the tutelage of the renowned Hennig Brand whose anachronistic medical expertise is stored in a Mongo DB and ailments and treatments are called if the Discord user types "sick" or "ill" in the chat.
 
-## Scripts
+NetiBot Team:
 
-| command                | description                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------- |
-| `npm start`            | starts the app - should only be used in production as changes will not get reloaded |
-| `npm run start:watch`  | runs the app using `nodemon` which watches for changes and reloads the app          |
-| `npm test`             | runs the tests once                                                                 |
-| `npm run test:watch`   | continually watches and runs the tests when files are updated                       |
-| `npm run setup-db`     | sets up the database locally                                                        |
-| `npm run setup-heroku` | sets up the database on heroku                                                      |
+Cody Wise:
+
+Mohamed Amin:
+
+Kevin Roney:
+
+Jeffrey Allison:
+
+<h3 align="left">NetiBot was built using these Languages and Tools:</h3>
+<p align="left"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
