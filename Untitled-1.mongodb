@@ -1,6 +1,0 @@
-use("webmd");
-db.conditions.insertMany([
-  { "_id" : 1, "diagnosis" : "Ligma", "treatment" : "Read Steve Jobs Biography"},
-  { "_id" : 2, "diagnosis" : "Actual big foot", "treatment" : "Apple cider vinegar"},
-  { "_id" : 3, "diagnosis" : "Philosopher's Gallstone", "treatment" : "Cook and evaporate soldier's urine until it glows and then drink up"}
-]);
