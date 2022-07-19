@@ -10,8 +10,8 @@ module.exports = {
   async execute(interaction) {
     const webmdResult = await fetch('https://netibotapp.herokuapp.com/webmds');
     const memeFile = await webmdResult.json();
-    const condition = memeFile[0].Diagnosis;
-    const treatment = memeFile[0].Treatment;
+    const condition = memeFile[0].diagnosis;
+    const treatment = memeFile[0].treatment;
     await interaction.reply(
       `Seems like you've caught a bad case of ${condition}. You should go home and ${treatment}`
     );
