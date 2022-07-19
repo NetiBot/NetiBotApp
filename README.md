@@ -3,7 +3,7 @@
 ![NetiBot Icon](./public/icon.png)
 
 What IS NetiBot??  
-Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever wanted to annoy your friends, but not put out the work of doing it. The bot is programmed to react to trigger words within Discord chat prompting a specific response, such as responding to the word 'wow' with a random clip from a 3rd party API that generates a random "Wow" from an Owen Wilson film. The bot has also studied under the tutelage of the renowned Hennig Brand whose anachronistic medical expertise is stored in a Mongo DB and ailments and treatments are called if the Discord user types "sick" or "ill" in the chat.
+Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever wanted to annoy your friends, but not put out the work of doing it. The bot is programmed to react to trigger words within Discord chat prompting a specific response, such as responding to the word 'wow' with a random clip from a 3rd party API that generates a random "Wow" from an Owen Wilson film. The bot has also studied under the tutelage of the renowned Hennig Brand whose archaic medical expertise is stored in a Mongo DB and ailments and treatments are called if the Discord user types "sick" or "ill" in the chat.
 
 NetiBot Team:
 
