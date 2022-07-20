@@ -1,7 +1,8 @@
 module.exports = {
   name: 'messageCreate',
   async execute(message) {
-    if (message.content.includes('No U')) {
+    const nou = message.content.toLowerCase();
+    if (nou.includes('no u')) {
       if (message.author.bot) {
         return;
       }
