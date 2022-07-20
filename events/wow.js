@@ -7,7 +7,8 @@ const fetch = (...args) =>
 module.exports = {
   name: 'messageCreate',
   async execute(message) {
-    if (message.content.includes('wow')) {
+    const wow = message.content.toLowerCase();
+    if (wow.includes('wow')) {
       if (message.author.bot) {
         return;
       }
