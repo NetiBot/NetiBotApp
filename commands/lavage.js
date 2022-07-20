@@ -42,15 +42,11 @@ module.exports = {
       try {
         const gif = 'https://c.tenor.com/PN9Sz1yNzNsAAAAd/nettypot.gif';
         const { size } = await interaction.channel.bulkDelete(amount);
-        await interaction.reply({ content: `Deleted ${size} messages.` });
-        await interaction
-          .followUp({
-            content: 'All fresh and clean! (D E E P  I N H A L E)',
-            files: [{ attachment: gif }],
-          })
-          .then((msg) => {
-            setTimeout(() => msg.delete(), 15000);
-          });
+        await interaction.reply({
+          content: `All fresh and clean! (D E E P  I N H A L E) \nDeleted ${size} messages.`,
+          files: [{ attachment: gif }],
+        });
+        setTimeout(() => interaction.deleteReply(), 14000);
       } catch (e) {
         console.log(e);
         interaction.reply({
