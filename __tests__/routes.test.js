@@ -30,12 +30,23 @@ describe('backend-express-template routes', () => {
   });
   it('UPDATE /webmds/:id updates a diagnosis and treatment', async () => {
     const res = await request(app)
-      .put('/webmds/62d87221e08c9882c1d2c2f3')
+      .put('/webmds/62d883d916af90bda82519fd')
       .send({ diagnosis: 'Test', treatment: 'Test Again' });
-    console.log('res', res);
     expect(res.status).toBe(200);
     expect(res.body.diagnosis).toBe('Test');
     expect(res.body.treatment).toBe('Test Again');
+  });
+  it('DELETE /webmds/:id deletes a diagnosis and treatment', async () => {
+    const res = await request(app).post('/webmds').send({
+      diagnosis: 'This will be deleted',
+      treatment: 'This too',
+    });
+    expect(res.status).toBe(200);
+    const response = await request(app).delete(`/webmds/${res.body._id}`);
+    expect(response.status).toBe(200);
+    expect(response.body.message).toBe(
+      'conditions and treatments were deleted successfully!'
+    );
   });
   afterAll(async () => {});
 });
