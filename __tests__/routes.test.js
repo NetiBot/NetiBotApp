@@ -26,6 +26,5 @@ describe('backend-express-template routes', () => {
     expect(res.body.treatment).toBe('Test Again');
   });
   afterAll(async () => {
-    // await pool.end();
   });
 });

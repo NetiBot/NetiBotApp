@@ -1,4 +1,3 @@
-// const { timeStamp } = require('console');
 const { MessageAttachment } = require('discord.js');
 const { QuickDB } = require('quick.db');
 const db = new QuickDB();
