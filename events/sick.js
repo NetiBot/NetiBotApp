@@ -4,10 +4,11 @@ const fetch = (...args) =>
 module.exports = {
   name: 'messageCreate',
   async execute(message) {
+    const emotionalDamage = message.content.toLowerCase();
     if (
-      message.content.includes('sick') ||
-      message.content.includes('ill') ||
-      message.content.includes('unwell')
+      emotionalDamage.includes('sick') ||
+      emotionalDamage.includes('ill') ||
+      emotionalDamage.includes('unwell')
     ) {
       if (message.author.bot) {
         return;
