@@ -24,8 +24,12 @@ module.exports = {
       return interaction.reply({ content: '**I can only delete 99 messages once!', ephemeral: true });
     } else {
       try{
+        const gif = 'https://c.tenor.com/PN9Sz1yNzNsAAAAd/nettypot.gif';
         const { size } = await interaction.channel.bulkDelete(amount); 
-        await interaction.reply({ content: `Deleted ${size} messages.`, ephemeral: true });
+        await interaction.reply({ content: `Deleted ${size} messages.` });
+        await interaction.followUp({ 
+          content: 'All fresh and clean! (D E E P  I N H A L E)', 
+          files: [{ attachment: gif }] });
       } catch(e) { 
         console.log(e);
         interaction.reply({ content: 'I cannot delete messages that is older than 14 days.', ephemeral: true });
