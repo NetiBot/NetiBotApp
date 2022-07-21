@@ -7,7 +7,6 @@ module.exports = {
         return;
       }
       const file = 'https://tenor.com/view/wtf-is-that-confused-gif-14675917';
-      console.log(file);
       await message.reply(`${file}`);
     }
   },

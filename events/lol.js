@@ -7,7 +7,6 @@ module.exports = {
         return;
       }
       const file = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-      console.log(file);
       await message.reply(`${file}`);
     }
   },

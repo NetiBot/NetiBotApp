@@ -23,7 +23,16 @@ module.exports = {
       .setColor('#A62639')
       .setTitle(`${file.word}`)
       .setURL(file.permalink)
-      .addFields({ name: 'Definition', value: `${file.definition}` }, { name: 'Example', value: `${file.example}` }, { name: 'Rating', value: `${file.thumbs_up} thumbs up. ${file.thumbs_down} thumbs down.` });
+      .addFields({ 
+        name: 'Definition', 
+        value: `${file.definition}` 
+      }, { 
+        name: 'Example', 
+        value: `${file.example}` 
+      }, { 
+        name: 'Rating', 
+        value: `${file.thumbs_up} thumbs up. ${file.thumbs_down} thumbs down.` 
+      });
     await interaction.reply({
       embeds: [embed],
     });

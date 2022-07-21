@@ -47,7 +47,7 @@ client.on('interactionCreate', async (interaction) => {
   try {
     await command.execute(interaction);
   } catch (error) {
-    console.error(error);
+    console.error(error); // eslint-disable-line no-console
     await interaction.reply({
       content: 'There was an error while executing this command!',
       ephemeral: true,
