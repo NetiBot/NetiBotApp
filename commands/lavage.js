@@ -16,12 +16,12 @@ module.exports = {
     if (!interaction.member.permissions.has('MANAGE_MESSAGES'))
       return interaction.reply({
         content:
-          "You don't have `MANAGE_MESSAGES` permission to use this command!",
+          "You don't have `MANAGE_MESSAGES` permission to use this command!", //eslint-disable-line
       });
     if (!interaction.guild.me.permissions.has('MANAGE_MESSAGES'))
       return interaction.reply({
         content:
-          "I don't have `MANAGE_MESSAGES` permission to execute this command!",
+          "I don't have `MANAGE_MESSAGES` permission to execute this command!", //eslint-disable-line
       });
 
     const amount = interaction.options.getInteger('amount');

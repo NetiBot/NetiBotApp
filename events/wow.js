@@ -12,6 +12,7 @@ module.exports = {
       if (message.author.bot) {
         return;
       }
+      const user = message.author;
       db.add('times.wow', 1);
       const timesUsed = await db.get('times.wow');
 
@@ -22,7 +23,7 @@ module.exports = {
       const file = memeFile[0].video['1080p'];
       const attachment = new MessageAttachment(file);
       await message.reply({
-        content: `You said wow,\nNetiBot has seen wow ${timesUsed} times since July 14th, 2022
+        content: `${user} said wow,\nNetiBot has seen wow ${timesUsed} times since July 14th, 2022
       `,
         files: [attachment],
       });
