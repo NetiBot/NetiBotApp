@@ -10,7 +10,7 @@
 # What IS NetiBot??  
 **Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever wanted to annoy your friends, but not put out the work of doing it. The bot is programmed to react to trigger words within Discord chat prompting a specific response, such as responding to the word 'wow' with a random clip from a 3rd party API that generates a random "Wow" from an Owen Wilson film. The bot has also studied under the tutelage of the renowned Hennig Brand whose archaic medical expertise is stored in a Mongo DB and ailments and treatments are called if the Discord user types "sick" or "ill" in the chat.**
 
-# Commands:
+# Commands
 Command|Description
 --- | ---
 /cat|Returns a random cat fact.
@@ -21,7 +21,7 @@ Command|Description
 /webmd|Responds with a horrible diagnosis and treatment.
 /wow|Returns a random "Wow" from the Owen Wilson film API.
 
-# Events:
+# Events
 Event|Description
 --- | ---
 birthday/bday|Responds with birthday gif and birthday song video.
@@ -33,9 +33,10 @@ sad|Responds with a sad video.
 wow|Responds with a random "Wow" from the Owen Wilson film API and increments the amount of wows its seen.
 wtf|Responds with a wtf gif.
 
-# Invite Link: <a href="https://discord.com/api/oauth2/authorize?client_id=997611125887733923&permissions=8&scope=bot%20applications.commands"><img src="./public/invite.png" width="20"/></a>
+# Invite Link <br> 
+<a href="https://discord.com/api/oauth2/authorize?client_id=997611125887733923&permissions=8&scope=bot%20applications.commands"><img src="./public/invite.png" width="20"/></a>
 
-# NetiBot Team:
+# NetiBot Team
 
 Cody Wise: <br>
 <a href="https://github.com/Cody-Wise"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/codywise/"><img src="./public/LI-Logo.png" width="65" height="17"/></a>
