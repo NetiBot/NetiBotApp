@@ -41,8 +41,12 @@ module.exports = {
     } else {
       try {
         const gif = 'https://c.tenor.com/PN9Sz1yNzNsAAAAd/nettypot.gif';
-        const { size } = await interaction.channel.bulkDelete(amount);
-        await interaction.reply({
+        const { size }  = await interaction.channel.bulkDelete(amount);
+        const wait = require('node:timers/promises').setTimeout;
+
+        await interaction.deferReply();
+        await wait(100);
+        await interaction.editReply({
           content: `All fresh and clean! (D E E P  I N H A L E) \nDeleted ${size} messages.`,
           files: [{ attachment: gif }],
         });
