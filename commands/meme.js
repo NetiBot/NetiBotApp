@@ -9,7 +9,7 @@ module.exports = {
     .setDescription('Replies with dank meme!'),
   async execute(interaction) {
     const memeResult = await fetch(
-      'https://meme-api.herokuapp.com/gimme/memes'
+      'https://meme-api.herokuapp.com/gimme/wholesomememes'
     );
     const memeFile = await memeResult.json();
     const file = memeFile.url;
