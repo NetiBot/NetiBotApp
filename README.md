@@ -8,10 +8,14 @@ Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever want
 NetiBot Team:
 
 Cody Wise: <br>
-<a href="https://github.com/Cody-Wise"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/codywise/"><img src="./public/LI-Logo.png" width="50" height="15"/></a>
+<a href="https://github.com/Cody-Wise"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/codywise/"><img src="./public/LI-Logo.png" width="65" height="17"/></a>
 
-Mohamed Amin:
+Mohamed Amin: <br>
+<a href="https://github.com/taha-amin"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/mohaamin/
+"><img src="./public/LI-Logo.png" width="65" height="17"/></a>
 
-Kevin Roney:
+Kevin Roney: <br>
+<a href="https://github.com/Kevin-Roney"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/kevin-roney/"><img src="./public/LI-Logo.png" width="65" height="17"/></a>
 
-Jeffrey Allison:
+Jeffrey Allison: <br>
+<a href="https://github.com/JeffreyAllison"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/jeffrey-m-allison/"><img src="./public/LI-Logo.png" width="65" height="17"/></a>
