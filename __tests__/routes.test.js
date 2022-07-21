@@ -27,6 +27,7 @@ describe('backend-express-template routes', () => {
     expect(res.status).toBe(200);
     expect(res.body.diagnosis).toBe('Test');
     expect(res.body.treatment).toBe('Test Again');
+    //this portion is to clean up the database
     const del = await request(app)
       .delete(`/webmds/${res.body._id}`);
     expect(del.status).toBe(200);
@@ -42,6 +43,7 @@ describe('backend-express-template routes', () => {
     expect(res.status).toBe(200);
     expect(res.body.diagnosis).toBe('Test');
     expect(res.body.treatment).toBe('Test Again');
+    //this portion is to clean up the database
     const del = await request(app)
       .delete(`/webmds/${res.body._id}`);
     expect(del.status).toBe(200);
