@@ -8,7 +8,7 @@
     "test": "jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config --passWithNoTests",
     "test:watch": "npm run test -- --watch",
     "start": "node -r dotenv/config server.js",
-    "start:watch": "nodemon -r dotenv/config server.js index.ts",
+    "start:watch": "nodemon -r dotenv/config server.js",
     "setup-db": "node -r dotenv/config setup-db.js",
     "setup-heroku": "heroku run npm run setup-db"
   },
@@ -32,16 +32,24 @@
     "supertest": "^6.2.3"
   },
   "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "@types/node": "^18.0.6",
     "bcrypt": "^5.0.1",
+    "better-sqlite3": "^7.6.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
-    "discord.js": "^13.8.1",
+    "discord.js": "^13.9.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.7",
+    "node.fs": "^1.0.2",
+    "path": "^0.12.7",
     "pg": "^8.7.3",
-    "ts-node": "^10.9.0",
-    "typescript": "^4.7.4"
+    "quick.db": "^9.0.5",
+    "quickdb": "^1.0.5"
   }
 }
