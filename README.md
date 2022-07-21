@@ -7,7 +7,8 @@ Quite simply, NetiBot is a Discord nuisance and lavage bot - if you've ever want
 
 NetiBot Team:
 
-Cody Wise:
+Cody Wise: <br>
+<a href="https://github.com/Cody-Wise"><img src="./public/GitHub_Logo.png" width="50"/></a> | <a href="https://www.linkedin.com/in/codywise/"><img src="./public/LI-Logo.png" width="50" height="15"/></a>
 
 Mohamed Amin:
 

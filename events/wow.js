@@ -5,7 +5,6 @@ const fetch = (...args) =>
   import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const mongoose = require('mongoose');
 
-
 module.exports = {
   name: 'messageCreate',
   async execute(message) {
@@ -18,7 +17,7 @@ module.exports = {
       await WowCount.findOneAndUpdate({ _id: 1 }, { $inc: { count: 1 } });
       const timesUsed = await db.wowcount.findOne({ _id: 1 });
       const count = timesUsed.count;
-
+      const user = message.author;
       const memeResult = await fetch(
         'https://owen-wilson-wow-api.herokuapp.com/wows/random'
       );
@@ -26,7 +25,7 @@ module.exports = {
       const file = memeFile[0].video['1080p'];
       const attachment = new MessageAttachment(file);
       await message.reply({
-        content: `You said wow,\nNetiBot has seen wow ${count} times since July 14th, 2022
+        content: `${user} said wow,\nNetiBot has seen wow ${count} times since July 14th, 2022
       `,
         files: [attachment],
       });
