@@ -48,7 +48,7 @@ module.exports = {
         });
         setTimeout(() => interaction.deleteReply(), 14000);
       } catch (e) {
-        console.log(e);
+        console.log(e); //eslint-disable-line
         interaction.reply({
           content: 'I cannot delete messages that is older than 14 days.',
           ephemeral: true,

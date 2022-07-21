@@ -7,7 +7,6 @@ module.exports = {
         return;
       }
       const file = 'https://c.tenor.com/LAcYOwpSIpcAAAAd/yugioh-no-u.gif';
-      console.log(file);
       await message.reply(`${file}`);
     }
   },

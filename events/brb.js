@@ -8,7 +8,6 @@ module.exports = {
       }
       const file = 'https://c.tenor.com/0VdgapmbJHsAAAAC/sonic-im-waiting.gif';
       const hold = 'https://youtu.be/xNjyG8S4_kI';
-      console.log(file);
       await message.reply(`${file}\n ${hold}`);
     }
   },

@@ -8,7 +8,9 @@ module.exports = {
     .setName('webmd')
     .setDescription('Replies with random ailment & treatment'),
   async execute(interaction) {
-    const webmdResult = await fetch('https://netibotapp.herokuapp.com/webmds');
+    const webmdResult = await fetch(
+      'https://netibotapp.herokuapp.com/webmds'
+    );
     const memeFile = await webmdResult.json();
     const condition = memeFile[0].diagnosis;
     const treatment = memeFile[0].treatment;
