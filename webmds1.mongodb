@@ -1,0 +1,22 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('webmd');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+// db.sales.drop();
+
+// Insert a few documents into the sales collection.
+db.webmds.insertMany([
+  { '_id': '1', 'diagnosis': 'Ligma', 'treatment': 'Read Steve Jobs Biography', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+  { '_id': '2', 'diagnosis': 'Actual big foot', 'treatment': 'Drink apple cider vinegar', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+  { '_id': '3', 'diagnosis': 'Philosophers Gallstone', 'treatment': 'Cook and evaporate soldiers urine until it glows and then drink up', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+  { '_id': '4', 'diagnosis': 'Sleep acnea', 'treatment': 'Sleep on your back so you dont drool on your face', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+  { '_id': '5', 'diagnosis': 'Bowdens Malady', 'treatment': 'Take a large dose of Pescaline D', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+  { '_id': '6', 'diagnosis': 'Bendi Syndrome', 'treatment': 'Ignore the Prime Directive and get lost in wormhole, or get saved by an android or something', 'createdAt': new Date(), 'updatedAt': new Date(), '__v': 0 },
+]);
+
