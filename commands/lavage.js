@@ -24,7 +24,7 @@ module.exports = {
           "I don't have `MANAGE_MESSAGES` permission to execute this command!", //eslint-disable-line
       });
 
-    const amount = interaction.options.getInteger('amount');
+    const amount = await interaction.options.getInteger('amount');
 
     if (isNaN(amount) || amount < 1) {
       return interaction.reply({
