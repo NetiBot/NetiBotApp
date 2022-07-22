@@ -43,7 +43,6 @@ module.exports = {
         const gif = 'https://c.tenor.com/PN9Sz1yNzNsAAAAd/nettypot.gif';
         const { size } = await interaction.channel.bulkDelete(amount);
         console.log(size);
-        const wait = require('node:timers/promises').setTimeout;
 
         // await interaction.deferReply();
         await interaction.reply({
