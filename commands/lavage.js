@@ -45,7 +45,7 @@ module.exports = {
         const wait = require('node:timers/promises').setTimeout;
 
         await interaction.deferReply();
-        await wait(100);
+        await wait(500);
         await interaction.editReply({
           content: `All fresh and clean! (D E E P  I N H A L E) \nDeleted ${size} messages.`,
           files: [{ attachment: gif }],
