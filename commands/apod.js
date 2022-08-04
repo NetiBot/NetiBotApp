@@ -10,7 +10,7 @@ module.exports = {
     .setDescription('Replies with NASA astronomy picture of the day!'),
   async execute(interaction) {
     const memeResult = await fetch(
-      'https://api.nasa.gov/planetary/apod?api_key=hvp8xA8D1KQd5BfN93bUhOT8mjmM0q7pRwBiItaG'
+      `https://api.nasa.gov/planetary/apod?api_key=${process.env.NASA_KEY}`
     );
     const file = await memeResult.json();
     const embed = new MessageEmbed()
