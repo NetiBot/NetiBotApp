@@ -20,6 +20,9 @@ Command|Description
 /urban[word]|Returns the definition of [word] from the Urban Dictionary API.
 /webmd|Responds with a horrible diagnosis and treatment.
 /wow|Returns a random "Wow" from the Owen Wilson film API.
+/weather[zipcode]|Returns the current weather for [zipcode] from the Accuweather API.
+/apod|Returns NASA photo of the day.
+/nobel|Returns a random Nobel Prize winner.
 
 # Events
 Event|Description
@@ -32,6 +35,7 @@ sick/ill/unwell|Responds with a horrible diagnosis and treatment.
 sad|Responds with a sad video.
 wow|Responds with a random "Wow" from the Owen Wilson film API and increments the amount of wows its seen.
 wtf|Responds with a wtf gif.
+tired|Responds with a restful video.
 
 # Invite Link <br> 
 <a href="https://discord.com/api/oauth2/authorize?client_id=997611125887733923&permissions=8&scope=bot%20applications.commands"><img src="./public/invite.png" width="20"/></a>
