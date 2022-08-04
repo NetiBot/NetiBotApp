@@ -23,6 +23,7 @@ Command|Description
 /weather[zipcode]|Returns the current weather for [zipcode] from the Accuweather API.
 /apod|Returns NASA photo of the day.
 /nobel|Returns a random Nobel Prize winner.
+/xkcd|Returns a random XKCD comic.
 
 # Events
 Event|Description
