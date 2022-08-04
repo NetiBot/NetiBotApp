@@ -9,7 +9,7 @@ module.exports = {
   name: 'messageCreate',
   async execute(message) {
     const wow = message.content.toLowerCase();
-    if (wow.includes(' wow')) {
+    if (wow.includes('wow')) {
       if (message.author.bot) {
         return;
       }
