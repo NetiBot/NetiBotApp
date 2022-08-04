@@ -2,7 +2,7 @@ module.exports = {
   name: 'messageCreate',
   async execute(message) {
     const lol = message.content.toLowerCase();
-    if (lol.includes('lol')) {
+    if (lol.includes(' lol')) {
       if (message.author.bot) {
         return;
       }

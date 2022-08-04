@@ -6,9 +6,9 @@ module.exports = {
   async execute(message) {
     const emotionalDamage = message.content.toLowerCase();
     if (
-      emotionalDamage.includes('sick') ||
-      emotionalDamage.includes('ill') ||
-      emotionalDamage.includes('unwell')
+      emotionalDamage.includes(' sick') ||
+      emotionalDamage.includes(' ill') ||
+      emotionalDamage.includes(' unwell')
     ) {
       if (message.author.bot) {
         return;
