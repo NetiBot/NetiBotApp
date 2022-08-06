@@ -13,6 +13,7 @@ module.exports = {
       `https://api.nasa.gov/planetary/apod?api_key=${process.env.NASA_KEY}`
     );
     const file = await memeResult.json();
+    const trimmed = file.explanation.substring(0, 1000);
     const embed = new MessageEmbed()
       .setColor('#A62639')
       .setTitle('NASA Picture of the Day')
@@ -25,7 +26,7 @@ module.exports = {
         value: `${file.date}` 
       }, { 
         name: 'Description', 
-        value: `${file.explanation}` 
+        value: `${trimmed}...` 
       },);
     await interaction.reply({
       embeds: [embed],
