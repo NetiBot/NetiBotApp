@@ -42,8 +42,7 @@ module.exports = {
       try {
         const gif = 'https://c.tenor.com/PN9Sz1yNzNsAAAAd/nettypot.gif';
         const { size } = await interaction.channel.bulkDelete(amount);
-        console.log(size);
-
+        console.log(size);//eslint-disable-line
         // await interaction.deferReply();
         await interaction.reply({
           content: `All fresh and clean! (D E E P  I N H A L E) \nDeleted ${size} messages.`,
